@@ -13,5 +13,6 @@ RUN yarn install
 COPY . .
 
 EXPOSE 8002
+EXPOSE 11537
 
 CMD yarn dev
